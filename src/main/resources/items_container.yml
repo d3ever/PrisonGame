@@ -1,0 +1,1939 @@
+fishing_1:
+  name: '&aУдочка'
+  material: FISHING_ROD
+  price: 10
+  lore:
+    - '&6Уровень 1'
+  next: 'fishing_2'
+
+fishing_2:
+  name: '&aУдочка'
+  material: FISHING_ROD
+  price: 40
+  enchantments:
+    LURE: 1
+  lore:
+    - '&6Уровень 2'
+  next: 'fishing_3'
+
+fishing_3:
+  name: '&aУдочка'
+  material: FISHING_ROD
+  price: 100
+  enchantments:
+    LURE: 2
+  lore:
+    - '&6Уровень 3'
+  next: 'fishing_4'
+
+fishing_4:
+  name: '&aУдочка'
+  material: FISHING_ROD
+  price: 225
+  enchantments:
+    LURE: 3
+  lore:
+    - '&6Уровень 4'
+  next: 'fishing_5'
+
+fishing_5:
+  name: '&aУдочка'
+  material: FISHING_ROD
+  price: 350
+  enchantments:
+    LURE: 4
+  lore:
+    - '&6Уровень 5'
+
+axe_1:
+  name: '&aДеревянный топор'
+  material: WOODEN_AXE
+  price: 10
+  lore:
+    - '&6Уровень 1'
+  enchantments:
+    DIG_SPEED: 1
+  requirements:
+    OAK_LOG: 0
+  next: 'axe_2'
+
+axe_2:
+  name: '&aДеревянный топор'
+  material: WOODEN_AXE
+  price: 20
+  lore:
+    - '&6Уровень 2'
+  enchantments:
+    DIG_SPEED: 2
+  requirements:
+    OAK_LOG: 100
+  next: 'axe_4'
+
+axe_4:
+  name: '&aДеревянный топор'
+  material: WOODEN_AXE
+  price: 50
+  lore:
+    - '&6Уровень 3'
+  enchantments:
+    DIG_SPEED: 3
+  requirements:
+    OAK_LOG: 500
+  next: 'axe_5'
+
+axe_5:
+  name: '&aКаменный топор'
+  material: STONE_AXE
+  price: 100
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    OAK_LOG: 2000
+  next: 'axe_6'
+
+axe_6:
+  name: '&aКаменный топор'
+  material: STONE_AXE
+  price: 170
+  lore:
+    - '&6Уровень 2'
+  enchantments:
+    DIG_SPEED: 1
+  requirements:
+    OAK_LOG: 5000
+  next: 'axe_7'
+
+axe_7:
+  name: '&aКаменный топор'
+  material: STONE_AXE
+  price: 265
+  lore:
+    - '&6Уровень 3'
+  enchantments:
+    DIG_SPEED: 2
+  requirements:
+    OAK_LOG: 12000
+  next: 'axe_8'
+
+axe_8:
+  name: '&aКаменный топор'
+  material: STONE_AXE
+  price: 375
+  lore:
+    - '&6Уровень 4'
+  enchantments:
+    DIG_SPEED: 3
+  requirements:
+    OAK_LOG: 20000
+  next: 'axe_9'
+
+axe_9:
+  name: '&aЖелезный топор'
+  material: IRON_AXE
+  price: 550
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    OAK_LOG: 40000
+  next: 'axe_10'
+
+axe_10:
+  name: '&aЖелезный топор'
+  material: IRON_AXE
+  price: 675
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    OAK_LOG: 55000
+  next: 'axe_11'
+
+axe_11:
+  name: '&aЖелезный топор'
+  material: IRON_AXE
+  lore:
+    - '&6Уровень 3'
+  enchantments:
+    DIG_SPEED: 2
+  requirements:
+    OAK_LOG: 75000
+  next: 'axe_12'
+
+axe_12:
+  name: '&aЖелезный топор'
+  material: IRON_AXE
+  price: 950
+  lore:
+    - '&6Уровень 4'
+  enchantments:
+    DIG_SPEED: 3
+  requirements:
+    OAK_LOG: 100000
+  next: 'axe_13'
+
+axe_13:
+  name: '&aАлмазный топор'
+  material: DIAMOND_AXE
+  price: 1950
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    OAK_LOG: 150000
+  next: 'axe_14'
+
+axe_14:
+  name: '&aАлмазный топор'
+  material: DIAMOND_AXE
+  price: 2300
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    OAK_LOG: 200000
+  next: 'axe_15'
+
+axe_15:
+  name: '&aАлмазный топор'
+  material: DIAMOND_AXE
+  price: 2900
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    OAK_LOG: 250000
+  next: 'axe_16'
+
+axe_16:
+  name: '&aАлмазный топор'
+  material: DIAMOND_AXE
+  price: 3750
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    OAK_LOG: 325000
+
+pickaxetwo_1:
+  name: '&aДеревянная кирка счастливчика'
+  material: WOODEN_PICKAXE
+  price: 10
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 1
+  lore:
+    - '&6Уровень 1'
+  next: 'pickaxetwo_2'
+
+pickaxetwo_2:
+  name: '&aДеревянная кирка счастливчика'
+  material: WOODEN_PICKAXE
+  price: 200
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 1
+    DIG_SPEED: 1
+  requirements:
+    STONE: 10000
+    NETHERRACK: 5000
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_3'
+
+pickaxetwo_3:
+  name: '&aДеревянная кирка счастливчика'
+  material: WOODEN_PICKAXE
+  price: 200
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 1
+    DIG_SPEED: 2
+  requirements:
+    STONE: 16000
+    NETHERRACK: 11000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_4'
+
+pickaxetwo_4:
+  name: '&aДеревянная кирка счастливчика'
+  material: WOODEN_PICKAXE
+  price: 440
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 1
+    DIG_SPEED: 3
+  requirements:
+    STONE: 20000
+    NETHERRACK: 15000
+  lore:
+    - '&6Уровень 4'
+  next: 'newpickaxe_5'
+
+pickaxetwo_5:
+  name: '&aКаменная кирка счастливчика'
+  material: STONE_PICKAXE
+  price: 1000
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 2
+  requirements:
+    STONE: 25000
+    NETHERRACK: 20000
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_6'
+
+pickaxetwo_6:
+  name: '&aКаменная кирка счастливчика'
+  material: STONE_PICKAXE
+  price: 1300
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 2
+    DIG_SPEED: 1
+  requirements:
+    STONE: 30000
+    NETHERRACK: 30000
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_7'
+
+pickaxetwo_7:
+  name: '&aКаменная кирка счастливчика'
+  material: STONE_PICKAXE
+  price: 1700
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 2
+    DIG_SPEED: 2
+  requirements:
+    STONE: 30000
+    NETHERRACK: 30000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_8'
+
+pickaxetwo_8:
+  name: '&aКаменная кирка счастливчика'
+  material: STONE_PICKAXE
+  price: 2000
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 2
+    DIG_SPEED: 3
+  requirements:
+    STONE: 35000
+    NETHERRACK: 35000
+  lore:
+    - '&6Уровень 4'
+  next: 'newpickaxe_9'
+
+pickaxetwo_9:
+  name: '&aЖелезная кирка счастливчика'
+  material: IRON_PICKAXE
+  price: 3500
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 3
+  requirements:
+    STONE: 50000
+    NETHERRACK: 50000
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_10'
+
+pickaxetwo_10:
+  name: '&aЖелезная кирка счастливчика'
+  material: IRON_PICKAXE
+  price: 4000
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 3
+    DIG_SPEED: 1
+  requirements:
+    STONE: 50000
+    NETHERRACK: 50000
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_11'
+
+pickaxetwo_11:
+  name: '&aЖелезная кирка счастливчика'
+  material: IRON_PICKAXE
+  price: 4650
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 3
+    DIG_SPEED: 2
+  requirements:
+    STONE: 100000
+    NETHERRACK: 100000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_12'
+
+pickaxetwo_12:
+  name: '&aЖелезная кирка счастливчика'
+  material: IRON_PICKAXE
+  price: 5500
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 3
+    DIG_SPEED: 3
+  requirements:
+    STONE: 150000
+    NETHERRACK: 150000
+  lore:
+    - '&6Уровень 4'
+  next: 'pickaxetwo_13'
+
+pickaxetwo_13:
+  name: '&aАлмазная кирка счастливчика'
+  material: DIAMOND_PICKAXE
+  price: 7500
+  enchantments:
+    SILK_TOUCH: 1
+    LOOT_BONUS_BLOCKS: 3
+  requirements:
+    STONE: 225000
+    NETHERRACK: 225000
+  lore:
+    - '&6Уровень 1'
+
+newpickaxe_1:
+  name: '&aРедкая деревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 10
+  enchantments:
+    SILK_TOUCH: 1
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_2'
+
+newpickaxe_2:
+  name: '&aРедкая деревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 160
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_3'
+
+newpickaxe_3:
+  name: '&aРедкая деревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 300
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 4
+  requirements:
+    STONE: 10000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_4'
+
+newpickaxe_4:
+  name: '&aРедкая каменная кирка'
+  material: STONE_PICKAXE
+  price: 500
+  enchantments:
+    SILK_TOUCH: 1
+  requirements:
+    STONE: 15000
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_5'
+
+
+newpickaxe_5:
+  name: '&aРедкая каменная кирка'
+  material: STONE_PICKAXE
+  price: 600
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 2
+  requirements:
+    STONE: 20000
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_6'
+
+newpickaxe_6:
+  name: '&aРедкая каменная кирка'
+  material: STONE_PICKAXE
+  price: 800
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 4
+  requirements:
+    STONE: 25000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_7'
+
+newpickaxe_7:
+  name: '&aРедкая железная кирка'
+  material: IRON_PICKAXE
+  price: 1250
+  enchantments:
+    SILK_TOUCH: 1
+  requirements:
+    STONE: 50000
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_8'
+
+newpickaxe_8:
+  name: '&aРедкая железная кирка'
+  material: IRON_PICKAXE
+  price: 1450
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 1
+  requirements:
+    STONE: 15000
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_9'
+
+newpickaxe_9:
+  name: '&aРедкая железная кирка'
+  material: IRON_PICKAXE
+  price: 1700
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 2
+  requirements:
+    STONE: 27500
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_10'
+
+newpickaxe_10:
+  name: '&aРедкая железная кирка'
+  material: IRON_PICKAXE
+  price: 2100
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 3
+  requirements:
+    STONE: 35000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_11'
+
+newpickaxe_11:
+  name: '&aРедкая железная кирка'
+  material: IRON_PICKAXE
+  price: 2300
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 4
+  requirements:
+    STONE: 47000
+  lore:
+    - '&6Уровень 4'
+  next: 'newpickaxe_12'
+
+newpickaxe_12:
+  name: '&aРедкая алмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 5000
+  enchantments:
+    SILK_TOUCH: 1
+  requirements:
+    STONE: 60000
+  lore:
+    - '&6Уровень 1'
+  next: 'newpickaxe_13'
+
+newpickaxe_13:
+  name: '&aРедкая алмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 5800
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 1
+  requirements:
+    STONE: 100000
+  lore:
+    - '&6Уровень 2'
+  next: 'newpickaxe_14'
+
+newpickaxe_14:
+  name: '&aРедкая алмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 7000
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 2
+  requirements:
+    STONE: 150000
+  lore:
+    - '&6Уровень 3'
+  next: 'newpickaxe_15'
+
+newpickaxe_15:
+  name: '&aРедкая алмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 8500
+  enchantments:
+    SILK_TOUCH: 1
+    DIG_SPEED: 3
+  requirements:
+    STONE: 225000
+  lore:
+    - '&6Уровень 4'
+
+pickaxe_1:
+  name: '&aДеревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 10
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    OAK_LOG: 10
+  next: 'pickaxe_2'
+
+pickaxe_2:
+  name: '&aДеревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 60
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    STONE: 750
+  next: 'pickaxe_3'
+
+pickaxe_3:
+  name: '&aДеревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 150
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    STONE: 1500
+  next: 'pickaxe_4'
+
+pickaxe_4:
+  name: '&aДеревянная кирка'
+  material: WOODEN_PICKAXE
+  price: 270
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    STONE: 2500
+  next: 'pickaxe_5'
+
+pickaxe_5:
+  name: '&aКаменная кирка'
+  material: STONE_PICKAXE
+  price: 375
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    STONE: 10000
+  next: 'pickaxe_6'
+
+pickaxe_6:
+  name: '&aКаменная кирка'
+  material: STONE_PICKAXE
+  price: 450
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    STONE: 20000
+    IRON_ORE: 300
+  next: 'pickaxe_7'
+
+pickaxe_7:
+  name: '&aКаменная кирка'
+  material: STONE_PICKAXE
+  price: 550
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    STONE: 30000
+    IRON_ORE: 1000
+  next: 'pickaxe_8'
+
+pickaxe_8:
+  name: '&aКаменная кирка'
+  material: STONE_PICKAXE
+  price: 665
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    STONE: 50000
+    IRON_ORE: 2500
+  next: 'pickaxe_9'
+
+pickaxe_9:
+  name: '&aЖелезная кирка'
+  material: IRON_PICKAXE
+  price: 800
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    STONE: 100000
+    IRON_ORE: 10000
+  next: 'pickaxe_10'
+
+pickaxe_10:
+  name: '&aЖелезная кирка'
+  material: IRON_PICKAXE
+  price: 925
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    STONE: 17000
+    IRON_ORE: 13000
+  next: 'pickaxe_11'
+
+pickaxe_11:
+  name: '&aЖелезная кирка'
+  material: IRON_PICKAXE
+  price: 1070
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    STONE: 22500
+    IRON_ORE: 17000
+  next: 'pickaxe_12'
+
+pickaxe_12:
+  name: '&aЖелезная кирка'
+  material: IRON_PICKAXE
+  price: 1300
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    STONE: 30000
+    IRON_ORE: 23000
+  next: 'pickaxe_13'
+
+pickaxe_13:
+  name: '&aАлмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 2500
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    STONE: 50000
+    IRON_ORE: 35000
+  next: 'pickaxe_14'
+
+pickaxe_14:
+  name: '&aАлмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 3100
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    STONE: 80000
+    IRON_ORE: 55000
+  next: 'pickaxe_15'
+
+pickaxe_15:
+  name: '&aАлмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 4000
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    STONE: 110000
+    IRON_ORE: 85000
+  next: 'pickaxe_16'
+
+pickaxe_16:
+  name: '&aАлмазная кирка'
+  material: DIAMOND_PICKAXE
+  price: 4750
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    STONE: 130000
+    IRON_ORE: 100000
+
+spade_1:
+  name: '&aДеревянная лопата'
+  material: WOODEN_SHOVEL
+  price: 5
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    DIRT: 500
+  next: 'spade_2'
+
+spade_2:
+  name: '&aДеревянная лопата'
+  material: WOODEN_SHOVEL
+  price: 25
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    DIRT: 500
+  next: 'spade_3'
+
+spade_3:
+  name: '&aДеревянная лопата'
+  material: WOODEN_SHOVEL
+  price: 50
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    DIRT: 1500
+  next: 'spade_4'
+
+spade_4:
+  name: '&aДеревянная лопата'
+  material: WOODEN_SHOVEL
+  price: 125
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    DIRT: 3000
+  next: 'spade_5'
+
+spade_5:
+  name: '&aКаменная лопата'
+  material: STONE_SHOVEL
+  price: 160
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    DIRT: 5000
+    SAND: 1000
+    GRAVEL: 1000
+  next: 'spade_6'
+
+spade_6:
+  name: '&aКаменная лопата'
+  material: STONE_SHOVEL
+  price: 220
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    DIRT: 10000
+    SAND: 2500
+    GRAVEL: 2500
+  next: 'spade_7'
+
+spade_7:
+  name: '&aКаменная лопата'
+  material: STONE_SHOVEL
+  price: 350
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    DIRT: 15000
+    SAND: 5000
+    GRAVEL: 5000
+  next: 'spade_8'
+
+spade_8:
+  name: '&aКаменная лопата'
+  material: STONE_SHOVEL
+  price: 460
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    DIRT: 22500
+    SAND: 10000
+    GRAVEL: 10000
+  next: 'spade_9'
+
+spade_9:
+  name: '&aЖелезная лопата'
+  material: IRON_SHOVEL
+  price: 600
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    DIRT: 30000
+    SAND: 15000
+    GRAVEL: 15000
+  next: 'spade_10'
+
+spade_10:
+  name: '&aЖелезная лопата'
+  material: IRON_SHOVEL
+  price: 760
+  enchantments:
+    DIG_SPEED: 1
+  lore:
+    - '&6Уровень 2'
+  requirements:
+    DIRT: 45000
+    SAND: 19000
+    GRAVEL: 19000
+  next: 'spade_11'
+
+spade_11:
+  name: '&aЖелезная лопата'
+  material: IRON_SHOVEL
+  price: 975
+  enchantments:
+    DIG_SPEED: 2
+  lore:
+    - '&6Уровень 3'
+  requirements:
+    DIRT: 60000
+    SAND: 28000
+    GRAVEL: 28000
+  next: 'spade_12'
+
+spade_12:
+  name: '&aЖелезная лопата'
+  material: IRON_SHOVEL
+  price: 1000
+  enchantments:
+    DIG_SPEED: 3
+  lore:
+    - '&6Уровень 4'
+  requirements:
+    DIRT: 90000
+    SAND: 35000
+    GRAVEL: 35000
+  next: 'spade_13'
+
+spade_13:
+  name: '&aАлмазная лопата'
+  material: DIAMOND_SHOVEL
+  price: 2000
+  lore:
+    - '&6Уровень 1'
+  requirements:
+    DIRT: 125000
+    SAND: 50000
+    GRAVEL: 50000
+  next: 'spade_14'
+
+spade_14:
+  name: '&aАлмазная лопата'
+  material: DIAMOND_SHOVEL
+  price: 2450
+  lore:
+    - '&6Уровень 2'
+  enchantments:
+    DIG_SPEED: 1
+  requirements:
+    DIRT: 145000
+    SAND: 60000
+    GRAVEL: 60000
+  next: 'spade_15'
+
+spade_15:
+  name: '&aАлмазная лопата'
+  material: DIAMOND_SHOVEL
+  price: 3000
+  lore:
+    - '&6Уровень 2'
+  enchantments:
+    DIG_SPEED: 2
+  requirements:
+    DIRT: 170000
+    SAND: 75000
+    GRAVEL: 75000
+  next: 'spade_16'
+
+spade_16:
+  name: '&aАлмазная лопата'
+  material: DIAMOND_SHOVEL
+  price: 4000
+  lore:
+    - '&6Уровень 3'
+  enchantments:
+    DIG_SPEED: 3
+  requirements:
+    DIRT: 190000
+    SAND: 90000
+    GRAVEL: 90000
+
+sword_1:
+  name: '&aДеревянный меч'
+  material: WOODEN_SWORD
+  price: 10
+  lore:
+    - '&6Уровень 1'
+  next: 'sword_2'
+
+sword_2:
+  name: '&aДеревянный меч'
+  material: WOODEN_SWORD
+  enchantments:
+    DAMAGE_ALL: 1
+  price: 30
+  mob-requirements:
+    SILVERFISH: 25
+  lore:
+    - '&6Уровень 2'
+  next: 'sword_3'
+
+sword_3:
+  name: '&aДеревянный меч'
+  material: WOODEN_SWORD
+  enchantments:
+    DAMAGE_ALL: 2
+  price: 60
+  mob-requirements:
+    SILVERFISH: 100
+  lore:
+    - '&6Уровень 3'
+  next: 'sword_4'
+
+sword_4:
+  name: '&aКаменный меч'
+  material: STONE_SWORD
+  price: 150
+  mob-requirements:
+    SILVERFISH: 250
+  lore:
+    - '&6Уровень 1'
+  next: 'sword_5'
+
+sword_5:
+  name: '&aКаменный меч'
+  material: STONE_SWORD
+  price: 180
+  enchantments:
+    DAMAGE_ALL: 1
+  mob-requirements:
+    SILVERFISH: 450
+  lore:
+    - '&6Уровень 2'
+  next: 'sword_6'
+
+sword_6:
+  name: '&aКаменный меч'
+  material: STONE_SWORD
+  price: 230
+  enchantments:
+    DAMAGE_ALL: 2
+  mob-requirements:
+    SILVERFISH: 700
+  lore:
+    - '&6Уровень 3'
+  next: 'sword_7'
+
+sword_7:
+  name: '&aКаменный меч'
+  material: STONE_SWORD
+  price: 300
+  enchantments:
+    DAMAGE_ALL: 3
+  mob-requirements:
+    SILVERFISH: 1000
+  lore:
+    - '&6Уровень 4'
+  next: 'sword_8'
+
+sword_8:
+  name: '&aЖелезный меч'
+  material: IRON_SWORD
+  price: 700
+  mob-requirements:
+    SILVERFISH: 3000
+  lore:
+    - '&6Уровень 1'
+  next: 'sword_9'
+
+sword_9:
+  name: '&aЖелезный меч'
+  material: IRON_SWORD
+  price: 900
+  enchantments:
+    DAMAGE_ALL: 1
+  mob-requirements:
+    SILVERFISH: 5000
+  lore:
+    - '&6Уровень 2'
+  next: 'sword_10'
+
+sword_10:
+  name: '&aЖелезный меч'
+  material: IRON_SWORD
+  price: 1350
+  enchantments:
+    DAMAGE_ALL: 2
+  mob-requirements:
+    SILVERFISH: 10000
+  lore:
+    - '&6Уровень 3'
+  next: 'sword_11'
+
+sword_11:
+  name: '&aЖелезный меч'
+  material: IRON_SWORD
+  price: 1900
+  enchantments:
+    DAMAGE_ALL: 3
+  mob-requirements:
+    SILVERFISH: 16500
+  lore:
+    - '&6Уровень 4'
+  next: 'sword_12'
+
+sword_12:
+  name: '&aАлмазный меч'
+  material: DIAMOND_SWORD
+  price: 3500
+  mob-requirements:
+    SILVERFISH: 22500
+  lore:
+    - '&6Уровень 1'
+  next: 'sword_13'
+
+sword_13:
+  name: '&aАлмазный меч'
+  material: DIAMOND_SWORD
+  price: 4600
+  enchantments:
+    DAMAGE_ALL: 1
+  mob-requirements:
+    SILVERFISH: 30000
+  lore:
+    - '&6Уровень 2'
+
+firesword_1:
+  name: '&4Огненный меч'
+  material: DIAMOND_SWORD
+  price: 4600
+  enchantments:
+    DAMAGE_ALL: 3
+    FIRE_ASPECT: 1
+  mob-requirements:
+    SILVERFISH: 30000
+  lore:
+    - '&6Уровень 1'
+  next: 'firesword_2'
+
+firesword_2:
+  name: '&4Огненный меч'
+  material: DIAMOND_SWORD
+  price: 7000
+  enchantments:
+    DAMAGE_ALL: 3
+    FIRE_ASPECT: 2
+  mob-requirements:
+    SILVERFISH: 37500
+  lore:
+    - '&6Уровень 2'
+
+cap_1:
+  name: '&aКожанный шлем'
+  material: LEATHER_HELMET
+  price: 5
+  lore:
+    - '&6Уровень 1'
+  next: 'cap_2'
+
+cap_2:
+  name: '&aКожанный шлем'
+  material: LEATHER_HELMET
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 30
+  lore:
+    - '&6Уровень 2'
+  next: 'cap_3'
+
+cap_3:
+  name: '&aКожанный шлем'
+  material: LEATHER_HELMET
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 65
+  lore:
+    - '&6Уровень 3'
+  next: 'cap_4'
+
+cap_4:
+  name: '&aКожанный шлем'
+  material: LEATHER_HELMET
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 110
+  mob-requirements:
+    SILVERFISH: 50
+  lore:
+    - '&6Уровень 4'
+  next: 'cap_5'
+
+cap_5:
+  name: '&aКольчужный шлем'
+  material: CHAINMAIL_HELMET
+  price: 210
+  mob-requirements:
+    SILVERFISH: 150
+  lore:
+    - '&6Уровень 1'
+  next: 'cap_6'
+
+cap_6:
+  name: '&aКольчужный шлем'
+  material: CHAINMAIL_HELMET
+  price: 285
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  mob-requirements:
+    SILVERFISH: 225
+  lore:
+    - '&6Уровень 2'
+  next: 'cap_7'
+
+cap_7:
+  name: '&aКольчужный шлем'
+  material: CHAINMAIL_HELMET
+  price: 380
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  mob-requirements:
+    SILVERFISH: 350
+  lore:
+    - '&6Уровень 3'
+  next: 'cap_8'
+
+cap_8:
+  name: '&aКольчужный шлем'
+  material: CHAINMAIL_HELMET
+  price: 450
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  mob-requirements:
+    SILVERFISH: 500
+  lore:
+    - '&6Уровень 4'
+  next: 'cap_9'
+
+cap_9:
+  name: '&aЖелезный шлем'
+  material: IRON_HELMET
+  price: 1000
+  mob-requirements:
+    SILVERFISH: 1000
+  lore:
+    - '&6Уровень 1'
+  next: 'cap_10'
+
+cap_10:
+  name: '&aЖелезный шлем'
+  material: IRON_HELMET
+  price: 1100
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  mob-requirements:
+    SILVERFISH: 3250
+  lore:
+    - '&6Уровень 2'
+  next: 'cap_11'
+
+cap_11:
+  name: '&aЖелезный шлем'
+  material: IRON_HELMET
+  price: 1340
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  mob-requirements:
+    SILVERFISH: 4400
+  lore:
+    - '&6Уровень 3'
+  next: 'cap_12'
+
+cap_12:
+  name: '&aЖелезный шлем'
+  material: IRON_HELMET
+  price: 1650
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  mob-requirements:
+    SILVERFISH: 5500
+  lore:
+    - '&6Уровень 4'
+  next: 'cap_13'
+
+cap_13:
+  name: '&aАлмазный шлем'
+  material: DIAMOND_HELMET
+  price: 2500
+  mob-requirements:
+    SILVERFISH: 7000
+  lore:
+    - '&6Уровень 1'
+  next: 'cap_14'
+
+cap_14:
+  name: '&aАлмазный шлем'
+  material: DIAMOND_HELMET
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 3750
+  mob-requirements:
+    SILVERFISH: 8000
+  lore:
+    - '&6Уровень 2'
+
+chest_1:
+  name: '&aКожанный нагрудник'
+  material: LEATHER_CHESTPLATE
+  price: 5
+  lore:
+    - '&6Уровень 1'
+  next: 'chest_2'
+
+chest_2:
+  name: '&aКожанный нагрудник'
+  material: LEATHER_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 30
+  lore:
+    - '&6Уровень 2'
+  next: 'chest_3'
+
+chest_3:
+  name: '&aКожанный нагрудник'
+  material: LEATHER_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 65
+  lore:
+    - '&6Уровень 3'
+  next: 'chest_4'
+
+chest_4:
+  name: '&aКожанный нагрудник'
+  material: LEATHER_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 110
+  mob-requirements:
+    SILVERFISH: 50
+  lore:
+    - '&6Уровень 4'
+  next: 'chest_5'
+
+chest_5:
+  name: '&aКольчужный нагрудник'
+  material: CHAINMAIL_CHESTPLATE
+  price: 210
+  mob-requirements:
+    SILVERFISH: 150
+  lore:
+    - '&6Уровень 1'
+  next: 'chest_6'
+
+chest_6:
+  name: '&aКольчужный нагрудник'
+  material: CHAINMAIL_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 285
+  mob-requirements:
+    SILVERFISH: 225
+  lore:
+    - '&6Уровень 2'
+  next: 'chest_7'
+
+chest_7:
+  name: '&aКольчужный нагрудник'
+  material: CHAINMAIL_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 380
+  mob-requirements:
+    SILVERFISH: 350
+  lore:
+    - '&6Уровень 3'
+  next: 'chest_8'
+
+chest_8:
+  name: '&aКольчужный нагрудник'
+  material: CHAINMAIL_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 450
+  mob-requirements:
+    SILVERFISH: 500
+  lore:
+    - '&6Уровень 4'
+  next: 'chest_9'
+
+chest_9:
+  name: '&aЖелезный нагрудник'
+  material: IRON_CHESTPLATE
+  price: 1000
+  mob-requirements:
+    SILVERFISH: 1000
+  lore:
+    - '&6Уровень 1'
+  next: 'chest_10'
+
+chest_10:
+  name: '&aЖелезный нагрудник'
+  material: IRON_CHESTPLATE
+  price: 1100
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  mob-requirements:
+    SILVERFISH: 3250
+  lore:
+    - '&6Уровень 2'
+  next: 'chest_11'
+
+chest_11:
+  name: '&aЖелезный нагрудник'
+  material: IRON_CHESTPLATE
+  price: 1340
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  mob-requirements:
+    SILVERFISH: 4400
+  lore:
+    - '&6Уровень 3'
+  next: 'chest_12'
+
+chest_12:
+  name: '&aЖелезный нагрудник'
+  material: IRON_CHESTPLATE
+  price: 1650
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  mob-requirements:
+    SILVERFISH: 5500
+  lore:
+    - '&6Уровень 4'
+  next: 'chest_13'
+
+chest_13:
+  name: '&aАлмазный нагрудник'
+  material: DIAMOND_CHESTPLATE
+  price: 2500
+  mob-requirements:
+    SILVERFISH: 7000
+  lore:
+    - '&6Уровень 1'
+  next: 'chest_14'
+
+chest_14:
+  name: '&aАлмазный нагрудник'
+  material: DIAMOND_CHESTPLATE
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 3750
+  mob-requirements:
+    SILVERFISH: 8500
+  lore:
+    - '&6Уровень 2'
+
+legg_1:
+  name: '&aКожанные штаны'
+  material: LEATHER_LEGGINGS
+  price: 5
+  lore:
+    - '&6Уровень 1'
+  next: 'legg_2'
+
+legg_2:
+  name: '&aКожанные штаны'
+  material: LEATHER_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 30
+  lore:
+    - '&6Уровень 2'
+  next: 'legg_3'
+
+legg_3:
+  name: '&aКожанные штаны'
+  material: LEATHER_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 65
+  lore:
+    - '&6Уровень 3'
+  next: 'legg_4'
+
+legg_4:
+  name: '&aКожанные штаны'
+  material: LEATHER_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 110
+  mob-requirements:
+    SILVERFISH: 50
+  lore:
+    - '&6Уровень 4'
+  next: 'legg_5'
+
+legg_5:
+  name: '&aКольчужные штаны'
+  material: CHAINMAIL_LEGGINGS
+  price: 210
+  mob-requirements:
+    SILVERFISH: 150
+  lore:
+    - '&6Уровень 1'
+  next: 'legg_6'
+
+legg_6:
+  name: '&aКольчужные штаны'
+  material: CHAINMAIL_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 285
+  mob-requirements:
+    SILVERFISH: 225
+  lore:
+    - '&6Уровень 2'
+  next: 'legg_7'
+
+legg_7:
+  name: '&aКольчужные штаны'
+  material: CHAINMAIL_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 380
+  mob-requirements:
+    SILVERFISH: 350
+  lore:
+    - '&6Уровень 3'
+  next: 'legg_8'
+
+legg_8:
+  name: '&aКольчужные штаны'
+  material: CHAINMAIL_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 450
+  mob-requirements:
+    SILVERFISH: 500
+  lore:
+    - '&6Уровень 4'
+  next: 'legg_9'
+
+legg_9:
+  name: '&aЖелезные штаны'
+  material: IRON_LEGGINGS
+  price: 1000
+  mob-requirements:
+    SILVERFISH: 1000
+  lore:
+    - '&6Уровень 1'
+  next: 'legg_10'
+
+legg_10:
+  name: '&aЖелезные штаны'
+  material: IRON_LEGGINGS
+  price: 1100
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  mob-requirements:
+    SILVERFISH: 3250
+  lore:
+    - '&6Уровень 2'
+  next: 'legg_11'
+
+legg_11:
+  name: '&aЖелезные штаны'
+  material: IRON_LEGGINGS
+  price: 1340
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  mob-requirements:
+    SILVERFISH: 4400
+  lore:
+    - '&6Уровень 3'
+  next: 'legg_12'
+
+legg_12:
+  name: '&aЖелезные штаны'
+  material: IRON_LEGGINGS
+  price: 1650
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  mob-requirements:
+    SILVERFISH: 5500
+  lore:
+    - '&6Уровень 4'
+  next: 'legg_13'
+
+legg_13:
+  name: '&aАлмазные штаны'
+  material: DIAMOND_LEGGINGS
+  price: 2500
+  mob-requirements:
+    SILVERFISH: 7000
+  lore:
+    - '&6Уровень 1'
+  next: 'legg_14'
+
+legg_14:
+  name: '&aАлмазные штаны'
+  material: DIAMOND_LEGGINGS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 3750
+  mob-requirements:
+    SILVERFISH: 8500
+  lore:
+    - '&6Уровень 2'
+
+boots_1:
+  name: '&aКожанные ботинки'
+  material: LEATHER_BOOTS
+  price: 5
+  lore:
+    - '&6Уровень 1'
+  next: 'boots_2'
+
+boots_2:
+  name: '&aКожанные ботинки'
+  material: LEATHER_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 30
+  lore:
+    - '&6Уровень 2'
+  next: 'boots_3'
+
+boots_3:
+  name: '&aКожанные ботинки'
+  material: LEATHER_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 65
+  lore:
+    - '&6Уровень 3'
+  next: 'boots_4'
+
+boots_4:
+  name: '&aКожанные ботинки'
+  material: LEATHER_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 110
+  mob-requirements:
+    SILVERFISH: 50
+  lore:
+    - '&6Уровень 4'
+  next: 'boots_5'
+
+boots_5:
+  name: '&aКольчужные ботинки'
+  material: CHAINMAIL_BOOTS
+  price: 210
+  mob-requirements:
+    SILVERFISH: 150
+  lore:
+    - '&6Уровень 1'
+  next: 'boots_6'
+
+boots_6:
+  name: '&aКольчужные ботинки'
+  material: CHAINMAIL_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 285
+  mob-requirements:
+    SILVERFISH: 225
+  lore:
+    - '&6Уровень 2'
+  next: 'boots_7'
+
+boots_7:
+  name: '&aКольчужные ботинки'
+  material: CHAINMAIL_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 380
+  mob-requirements:
+    SILVERFISH: 350
+  lore:
+    - '&6Уровень 3'
+  next: 'boots_8'
+
+boots_8:
+  name: '&aКольчужные ботинки'
+  material: CHAINMAIL_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 450
+  mob-requirements:
+    SILVERFISH: 500
+  lore:
+    - '&6Уровень 4'
+  next: 'boots_9'
+
+boots_9:
+  name: '&aЖелезные ботинки'
+  material: IRON_BOOTS
+  price: 1000
+  mob-requirements:
+    SILVERFISH: 1000
+  lore:
+    - '&6Уровень 1'
+  next: 'boots_10'
+
+boots_10:
+  name: '&aЖелезные ботинки'
+  material: IRON_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 1100
+  mob-requirements:
+    SILVERFISH: 3250
+  lore:
+    - '&6Уровень 2'
+  next: 'boots_11'
+
+boots_11:
+  name: '&aЖелезные ботинки'
+  material: IRON_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 2
+  price: 1340
+  mob-requirements:
+    SILVERFISH: 4400
+  lore:
+    - '&6Уровень 3'
+  next: 'boots_12'
+
+boots_12:
+  name: '&aЖелезные ботинки'
+  material: IRON_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 3
+  price: 1650
+  mob-requirements:
+    SILVERFISH: 5500
+  lore:
+    - '&6Уровень 4'
+  next: 'boots_13'
+
+boots_13:
+  name: '&aАлмазные ботинки'
+  material: DIAMOND_BOOTS
+  price: 2500
+  mob-requirements:
+    SILVERFISH: 6000
+  lore:
+    - '&6Уровень 1'
+  next: 'boots_14'
+
+boots_14:
+  name: '&aАлмазные ботинки'
+  material: DIAMOND_BOOTS
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 1
+  price: 3500
+  mob-requirements:
+    SILVERFISH: 7500
+  lore:
+    - '&6Уровень 2'
+
+bow_1:
+  name: '&aЛук'
+  material: BOW
+  price: 10
+  lore:
+    - '&6Уровень 1'
+  next: 'bow_2'
+
+bow_2:
+  name: '&aЛук'
+  material: BOW
+  requirements:
+    COBWEB: 1000
+  price: 100
+  enchantments:
+    ARROW_DAMAGE: 1
+  lore:
+    - '&6Уровень 2'
+  next: 'bow_3'
+
+bow_3:
+  name: '&aЛук'
+  material: BOW
+  requirements:
+    COBWEB: 2500
+  price: 185
+  enchantments:
+    ARROW_DAMAGE: 2
+  lore:
+    - '&6Уровень 3'
+  next: 'bow_4'
+
+bow_4:
+  name: '&aЛук'
+  material: BOW
+  requirements:
+    COBWEB: 5000
+  price: 290
+  enchantments:
+    ARROW_DAMAGE: 3
+  lore:
+    - '&6Уровень 4'
+  next: 'bow_5'
+
+bow_5:
+  name: '&aЛук'
+  material: BOW
+  requirements:
+    COBWEB: 9000
+  price: 500
+  enchantments:
+    ARROW_DAMAGE: 4
+  lore:
+    - '&6Уровень 5'
+  next: 'bow_6'
+
+bow_6:
+  name: '&aЛук'
+  material: BOW
+  requirements:
+    COBWEB: 9000
+  price: 1000
+  enchantments:
+    ARROW_DAMAGE: 5
+  lore:
+    - '&6Уровень 6'
+
+firebow_1:
+  name: '&aОгненный лук'
+  material: BOW
+  price: 10
+  enchantments:
+    ARROW_FIRE: 1
+  lore:
+    - '&6Уровень 1'
+  next: 'firebow_2'
+
+firebow_2:
+  name: '&aОгненный лук'
+  material: BOW
+  requirements:
+    COBWEB: 1000
+  price: 310
+  enchantments:
+    ARROW_FIRE: 1
+    ARROW_DAMAGE: 1
+  lore:
+    - '&6Уровень 2'
+  next: 'firebow_3'
+
+firebow_3:
+  name: '&aОгненный лук'
+  material: BOW
+  requirements:
+    COBWEB: 1750
+  price: 690
+  enchantments:
+    ARROW_FIRE: 1
+    ARROW_DAMAGE: 2
+  lore:
+    - '&6Уровень 3'
+  next: 'firebow_4'
+
+firebow_4:
+  name: '&aОгненный лук'
+  material: BOW
+  price: 900
+  requirements:
+    COBWEB: 2500
+  enchantments:
+    ARROW_FIRE: 1
+    ARROW_DAMAGE: 3
+  lore:
+    - '&6Уровень 4'
+  next: 'firebow_5'
+
+firebow_5:
+  name: '&aОгненный лук'
+  material: BOW
+  price: 1250
+  requirements:
+    COBWEB: 5000
+  enchantments:
+    ARROW_FIRE: 1
+    ARROW_DAMAGE: 4
+  lore:
+    - '&6Уровень 5'
+  next: 'firebow_6'
+
+firebow_6:
+  name: '&aОгненный лук'
+  material: BOW
+  price: 2000
+  requirements:
+    COBWEB: 15000
+  enchantments:
+    ARROW_FIRE: 1
+    ARROW_DAMAGE: 5
+  lore:
+    - '&6Уровень 6'
+key:
+  name: '&aКлюч'
+  material: GHAST_TEAR
+rat_meat:
+  name: '&aКрысиное мясо'
+  material: ROTTEN_FLESH
+  drop: true
+seeds:
+  name: '&6Семечки'
+  material: WHEAT_SEEDS
+  drop: true
+poo:
+  name: '&aКакашки'
+  material: COCOA_BEANS
+  data: 3
+  drop: true
+star:
+  name: '&6Звезда'
+  material: NETHER_STAR
+  drop: true
+cave:
+  name: '&2Заброшенный подвал'
+  material: BOOK

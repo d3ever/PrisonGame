@@ -1,0 +1,12 @@
+name: zPrison-PLUGIN
+main: sexy.criss.game.prison.Main
+version: 27.03.2022
+author: d3ever
+depend:
+  - GenCore
+  - ProtocolLib
+  - GenAPI
+  - CS-CoreLib
+api-version: 1.13
+load: POSTWORLD
+commands: {}
